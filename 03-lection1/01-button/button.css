@@ -1,1 +1,80 @@
 /* Стилизация кнопки */
+
+.buttonPrimary {
+    width: 189px;
+    height: 48px;
+    background-color: var(--primary);
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--white);
+    border: none;
+}
+
+.buttonPrimary:hover:enabled {
+    background-color: var(--primary-hover);
+    cursor: pointer;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.buttonPrimary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.buttonSecondary {
+    width: 189px;
+    height: 48px;
+    background-color: var(--secondary);
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--white);
+    border: none;
+}
+
+.buttonSecondary:hover:enabled {
+    background-color: var(--secondary-hover);
+    cursor: pointer;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.buttonSecondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.buttonAlternate {
+    background-color: var(--white);
+    width: 189px;
+    height: 48px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--grey-4);
+    border: 1px solid var(--grey-3);
+}
+
+.buttonAlternate:hover:enabled {
+    border-color: var(--black);
+    cursor: pointer;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.buttonAlternate:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
