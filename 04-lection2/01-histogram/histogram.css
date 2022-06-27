@@ -1,0 +1,66 @@
+
+.histogram {
+    background: var(--background-primary);
+    border: 1px solid var(--border-primary);
+    border-radius: 8px;
+    max-width: 1110px;
+}
+
+.histogram__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.histogram__total {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px;
+    gap: 6px;
+}
+
+.histogram__totalName {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--font-primary);
+    opacity: 0.8;
+}
+
+.histogram__totalAmount {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--font-primary);
+    opacity: 0.8;
+    margin: 0px;
+}
+
+.histogram__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: var(--link-primary);
+    padding: 19px 24px;
+}
+
+.chart {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    padding: 26px 29px 24px 26px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.chart__column {
+    background-color: var(--column-primary);
+    flex-grow: 1;
+    height: 10px;
+}
