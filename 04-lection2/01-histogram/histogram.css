@@ -3,19 +3,19 @@
     background: var(--background-primary);
     border: 1px solid var(--border-primary);
     border-radius: 8px;
-    max-width: 1110px;
+    padding: 16px 24px;
 }
 
 .histogram__header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 39px;
 }
 
 .histogram__total {
     display: flex;
     flex-direction: column;
-    padding: 16px 24px;
     gap: 6px;
 }
 
@@ -27,6 +27,7 @@
     line-height: 24px;
     color: var(--font-primary);
     opacity: 0.8;
+    max-width: 200px;
 }
 
 .histogram__totalAmount {
@@ -48,19 +49,16 @@
     line-height: 24px;
     text-align: right;
     color: var(--link-primary);
-    padding: 19px 24px;
 }
 
-.chart {
+.histogram__chart {
     display: flex;
     flex-direction: row;
     gap: 1px;
-    padding: 26px 29px 24px 26px;
-    justify-content: space-between;
     align-items: flex-end;
+    height: 50px;
 }
-.chart__column {
+.histogram__chart_column {
     background-color: var(--column-primary);
     flex-grow: 1;
-    height: 10px;
 }
