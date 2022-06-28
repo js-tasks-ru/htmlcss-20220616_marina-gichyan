@@ -58,7 +58,7 @@
     align-items: flex-end;
     height: 50px;
 }
-.histogram__chart_column {
+.histogram__chartColumn {
     background-color: var(--column-primary);
     flex-grow: 1;
 }
