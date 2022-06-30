@@ -1,0 +1,40 @@
+.sidebar {
+    height: 100%;
+    background-color: var(--background-secondary);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--font-primary);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sidebar__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.sidebar__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--font-primary);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0%;
+}
+
+.sidebar_selection {
+    color: orange;
+}
+
+.nobull {
+    list-style-type: none;
+}

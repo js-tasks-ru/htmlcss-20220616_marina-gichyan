@@ -1,7 +1,6 @@
 
 
 .calendar {
-    width: 100%
     background: var(--background-primary);
     border: 1px solid var(--grey-3);
     border-radius: 8px;
@@ -57,6 +56,6 @@
     background-color: #4263EB;
 }
 
-.calendar__item_between-active {
+.calendar__item_betweenActive {
     background-color: #A0B1F5;
 }
