@@ -11,7 +11,10 @@
     display: grid;
     grid-template-columns: 229px 1fr;
     grid-column-gap: 30px;
-    margin: 0 165px;
+}
+
+.template__container {
+    margin: 0px 165px;
 }
 
 .template__footer {
