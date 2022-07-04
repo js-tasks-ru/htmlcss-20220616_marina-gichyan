@@ -6,7 +6,7 @@
     border-radius: 12px;
 }
 
-.componentPreview {
+.content__componentPreview {
     display: flex;
     flex-direction: column;
     gap: 24px;

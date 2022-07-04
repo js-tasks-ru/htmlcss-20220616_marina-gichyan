@@ -31,10 +31,10 @@
     margin: 0%;
 }
 
-.sidebar_selection {
+.sidebar__selection {
     color: orange;
 }
 
-.nobull {
+.sidebar__list-nobull {
     list-style-type: none;
 }
