@@ -40,9 +40,13 @@
     --border-primary: var(--grey-3);
     --link-primary: var(--blue-2);
     --column-primary: var(--blue-2);
-    
 }
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
 }
