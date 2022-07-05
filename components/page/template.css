@@ -12,22 +12,3 @@
     grid-template-columns: 229px 1fr;
     grid-column-gap: 30px;
 }
-
-.template__container {
-    margin: 0px 165px;
-}
-
-.template__footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 130px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color:var(--grey-3);
-}

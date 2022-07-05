@@ -1,5 +1,4 @@
 .sidebar {
-    height: 100%;
     background-color: var(--background-secondary);
     font-family: 'Inter';
     font-style: normal;
@@ -7,9 +6,6 @@
     font-size: 14px;
     line-height: 22px;
     color: var(--font-primary);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .sidebar__container {

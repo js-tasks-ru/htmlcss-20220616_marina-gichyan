@@ -1,6 +1,9 @@
 .container {
     max-width: 1110px;
     margin: 0px auto;
-    display: flex;
-    flex-direction: row;
 }
+
+.container_wide {
+    width: 90%
+}
+
