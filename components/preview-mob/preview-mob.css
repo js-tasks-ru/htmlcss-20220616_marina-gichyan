@@ -1,0 +1,12 @@
+@media screen and (min-width: 320px) {
+    .preview {
+        background-color: var(--background-secondary);
+        padding: 24px 0px;
+    }
+    
+    .preview__inner {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+}
