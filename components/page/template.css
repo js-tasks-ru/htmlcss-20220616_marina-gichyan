@@ -1,0 +1,14 @@
+
+.template {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-row-gap: 36px;
+    height: 100%;
+    background-color: var(--background-secondary);
+}
+
+.template__main {
+    display: grid;
+    grid-template-columns: 229px 1fr;
+    grid-column-gap: 30px;
+}

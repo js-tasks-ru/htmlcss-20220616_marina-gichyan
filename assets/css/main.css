@@ -7,6 +7,10 @@
 @import '../../components/preview/preview.css';
 @import '../../components/container/container.css';
 @import '../../components/card/card.css';
+@import '../../04-lection2/01-histogram/histogram.css';
+@import '../../components/sidebar/sidebar.css';
+@import '../../components/content/content.css';
+@import '../../components/page/template.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
@@ -26,6 +30,7 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --grey-5: #F9FAFC;
+    --grey-6: #E5E5E5;
 
     --error: var(--red);
     --success: var(--blue);
@@ -45,4 +50,8 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+html, body {
+    height: 100%;
+
 }
