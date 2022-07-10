@@ -5,20 +5,12 @@
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 12px;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 .card__preview {
-    width: 164px;
-    height: 164px;
     border-radius: 12px 12px 0 0;
     background: var(--background-primary);
-}
-
-.card__previewDivider {
-    width: 164px;
-    height: 1px;
-    left: 16px;
-    background-color: var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
 }
 
 .card__title {
