@@ -1,39 +1,53 @@
 /* Стилизация аккордеона */
 .accordion__item {
-    padding: 24px 32px;
-    box-sizing: border-box;
-    background: var(--white);
-    border: 1px solid var(--grey-3);
-    border-radius: 8px;
-    margin-bottom: 8px;
-
+  padding: 24px 32px;
+  box-sizing: border-box;
+  background: var(--white);
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+  margin-bottom: 8px;
 }
 
 .accordion__item:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .accordion__summary {
-    font-family: 'Inter' sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    display: inline-block;
-    color: var(--black);
-
+  font-family: 'Inter' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: block;
+  color: var(--black);
+  cursor: pointer;
+  position: relative;
 }
 
-.accordion__summary::-webkit-details-marker {  
-    display: none;
+.accordion__icon {
+  right: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  transition: transform 0.5s;
+  transform: rotateZ(0deg);
+}
+
+.accordion__summary::-webkit-details-marker {
+  display: none;
 }
 
 .accordion__content {
-    font-family: 'Inter' sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--grey-4);
-    padding-top: 16px;
+  font-family: 'Inter' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--grey-4);
+  padding-top: 16px;
+}
+
+.accordion__item[open].accordion__icon {
+  transform: rotateZ(-180deg);
 }

@@ -1,13 +1,61 @@
-.header {
-    padding: 96px 0px 77px;
-    background: var(--background-primary);
-}
 
-.header__title {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 64px;
-    color: var(--font-primary);
+    .header {
+        padding: 96px 0px 77px;
+        background: var(--background-primary);
+    }
+
+    .header__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--font-primary);
+    }
+
+    .header__logo {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 8px;
+        padding-bottom: 48px;
+    }
+
+    .header__logoSquare {
+        height: 30px;
+        width: 30px;
+        background-color: var(--black);
+    }
+
+    .header__logoCircle {
+        height: 32px;
+        width: 32px;
+        border-radius: 50%;
+        background-color: var(--black);
+    }
+
+    .header__logoTriangle{
+        border: 16px solid transparent; 
+        border-bottom: 16px solid var(--black);
+        border-left: 16px solid var(--black);
+    }
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding: 96px 0px 77px;
+        background: var(--background-primary);
+    }
+    
+    .header__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 64px;
+        color: var(--font-primary);
+    }
+    .header__logo {
+        display: none;
+    }
 }
