@@ -5,5 +5,54 @@
     <link rel="stylesheet" href="../../assets/css/main.css" />
     <link rel="stylesheet" href="./input.css" />
   </head>
-  <body></body>
+  <body>
+    <label class="input" default
+      >Label
+      <input
+        type="text"
+        name="input"
+        class="input__field"
+        placeholder="Placeholder"
+      />
+    </label>
+    <label class="input" pressed
+      >Focus
+      <input
+        type="text"
+        name="input"
+        value="Filled input"
+        class="input__field"
+      />
+    </label>
+    <label class="input" success
+      >Success
+      <input type="text" name="input" value="Success" class="input__field" />
+      <div class="input__icon">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <use href="../../assets/Icons/sprite.svg#success"></use>
+        </svg>
+      </div>
+    </label>
+    <label class="input" error
+      >Error
+      <input type="text" name="input" value="Error" class="input__field" />
+      <div class="input__icon">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <use href="../../assets/Icons/sprite.svg#alert"></use>
+        </svg>
+      </div>
+    </label>
+  </body>
 </html>
