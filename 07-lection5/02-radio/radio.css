@@ -1,6 +1,5 @@
 .radiobutton {
   display: block;
-  margin: 0 0 10px 0;
   cursor: pointer;
   position: relative;
 }
@@ -24,23 +23,13 @@
   position: relative;
 }
 
-.radiobutton__control_active {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  background-color: var(--background-primary);
-  border-radius: 50%;
-  width: 18px;
-  height: 18px;
-  transform: translate(25%, 25%);
-}
-
 .radiobutton__input:checked ~ .radiobutton__state .radiobutton__control {
   border: 1px solid var(--link-primary);
-}
-
-.radiobutton__input:checked ~ .radiobutton__state .radiobutton__control_active {
   background-color: var(--link-primary);
+  padding: 5px;
+  background-clip: content-box;
+  width: 18px;
+  height: 18px;
 }
 
 .radiobutton__title {
@@ -52,7 +41,7 @@
   color: var(--grey-4);
 }
 
-.radiobutton__title_disabled {
+.radiobutton__input:disabled ~ .radiobutton__state .radiobutton__title {
   color: var(--grey-2);
 }
 .radiobutton__input:disabled ~ .radiobutton__state .radiobutton__control {

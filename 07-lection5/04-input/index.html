@@ -6,28 +6,28 @@
     <link rel="stylesheet" href="./input.css" />
   </head>
   <body>
-    <label class="input" default
-      >Label
+    <div class="input" default>
+      <label class="input__label" default>Label</label>
       <input
         type="text"
         name="input"
         class="input__field"
         placeholder="Placeholder"
       />
-    </label>
-    <label class="input" pressed
-      >Focus
+    </div>
+    <div class="input" pressed>
+      <label class="input__label">Focus</label>
       <input
         type="text"
         name="input"
         value="Filled input"
-        class="input__field"
+        class="input__field input__field_pressed"
       />
-    </label>
-    <label class="input" success
-      >Success
+    </div>
+    <div class="input" success>
+      <label class="input__label">Success</label>
       <input type="text" name="input" value="Success" class="input__field" />
-      <div class="input__icon">
+      <div class="input__icon input__icon_on">
         <svg
           width="24"
           height="24"
@@ -38,11 +38,16 @@
           <use href="../../assets/Icons/sprite.svg#success"></use>
         </svg>
       </div>
-    </label>
-    <label class="input" error
-      >Error
-      <input type="text" name="input" value="Error" class="input__field" />
-      <div class="input__icon">
+    </div>
+    <div class="input" error>
+      <label class="input__label">Error</label>
+      <input
+        type="text"
+        name="input"
+        value="Error"
+        class="input__field input__field_error"
+      />
+      <div class="input__icon input__icon_on">
         <svg
           width="24"
           height="24"
@@ -53,6 +58,6 @@
           <use href="../../assets/Icons/sprite.svg#alert"></use>
         </svg>
       </div>
-    </label>
+    </div>
   </body>
 </html>

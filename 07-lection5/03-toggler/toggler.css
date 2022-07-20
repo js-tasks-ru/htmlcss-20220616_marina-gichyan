@@ -34,7 +34,7 @@
   width: 24px;
   height: 24px;
   border-radius: 16px;
-  left: 4%;
+  left: 2px;
   top: 50%;
   transform: translateY(-50%);
   background-color: var(--grey-2);
@@ -47,7 +47,7 @@
 
 .toggler__input:checked ~ .toggler__state .toggler__control::after {
   background-color: var(--background-primary);
-  left: 96%;
+  left: 50px;
   transform: translate(-100%, -50%);
 }
 

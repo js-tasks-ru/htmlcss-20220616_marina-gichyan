@@ -1,6 +1,5 @@
 .checkbox {
   display: block;
-  margin: 0 0 10px 0;
   cursor: pointer;
   position: relative;
 }
@@ -41,10 +40,6 @@
   color: var(--grey-4);
 }
 
-.checkbox__titleDisabled {
-  color: var(--grey-2);
-}
-
 .checkbox__input:checked ~ .checkbox__state .checkbox__control {
   background: var(--link-primary);
   border-color: var(--link-primary);
@@ -53,4 +48,9 @@
 .checkbox__input:disabled ~ .checkbox__state .checkbox__control {
   background: var(--grey-2);
   border-color: var(--grey-2);
+  color: var(--grey-2);
+}
+
+.checkbox__input:disabled ~ .checkbox__state .checkbox__title {
+  color: var(--grey-2);
 }
