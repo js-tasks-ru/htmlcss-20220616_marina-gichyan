@@ -1,4 +1,4 @@
-.tab__container {
+.tab {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
@@ -10,7 +10,7 @@
   display: none;
 }
 
-.tab-scroller {
+.tab__scroller {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 40px;
