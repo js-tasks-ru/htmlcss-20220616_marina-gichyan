@@ -1,9 +1,7 @@
 .tab {
   margin: 0 auto;
-  padding: 0 15px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
 }
 
 .tab__input {
@@ -27,10 +25,10 @@
   color: var(--grey-3);
 }
 
-#tab-btn-1:checked ~ .tab-scroller [for='tab-btn-1'],
-#tab-btn-2:checked ~ .tab-scroller [for='tab-btn-2'],
-#tab-btn-3:checked ~ .tab-scroller [for='tab-btn-3'],
-#tab-btn-4:checked ~ .tab-scroller [for='tab-btn-4'] {
+#tab-btn-1:checked ~ .tab__scroller [for='tab-btn-1'],
+#tab-btn-2:checked ~ .tab__scroller [for='tab-btn-2'],
+#tab-btn-3:checked ~ .tab__scroller [for='tab-btn-3'],
+#tab-btn-4:checked ~ .tab__scroller [for='tab-btn-4'] {
   border-bottom: 4px solid var(--font-primary);
   color: var(--font-primary);
   padding-bottom: 8px;
