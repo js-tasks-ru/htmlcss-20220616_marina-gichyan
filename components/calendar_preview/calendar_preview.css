@@ -1,12 +1,10 @@
 .calendar {
   background: var(--background-primary);
   border-radius: 8px;
-  max-width: 304px;
-  min-width: 202px;
 }
 
 .calendar_preview {
-  min-width: 120px;
+  white-space: normal;
 }
 
 .calendar__title {

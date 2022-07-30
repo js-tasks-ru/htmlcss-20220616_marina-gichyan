@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <!-- Страница радио -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./radio.css">
-    </head>
-    <body>
-
-    </body>
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./radio.css" />
+  </head>
+  <body>
+    <label class="radiobutton">
+      <input
+        type="radio"
+        unchecked
+        name="radiobutton"
+        class="radiobutton__input"
+      />
+      <div class="radiobutton__state">
+        <div class="radiobutton__control"></div>
+        <div class="radiobutton__title">Default</div>
+      </div>
+    </label>
+    <label class="radiobutton">
+      <input
+        type="radio"
+        checked
+        name="radiobutton"
+        class="radiobutton__input"
+      />
+      <div class="radiobutton__state">
+        <div class="radiobutton__control"></div>
+        <div class="radiobutton__title">Selected</div>
+      </div>
+    </label>
+    <label class="radiobutton">
+      <input
+        type="radio"
+        disabled
+        name="radiobutton"
+        class="radiobutton__input"
+      />
+      <div class="radiobutton__state">
+        <div class="radiobutton__control"></div>
+        <div class="radiobutton__title">Disabled</div>
+      </div>
+    </label>
+  </body>
 </html>

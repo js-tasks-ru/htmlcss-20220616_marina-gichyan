@@ -4,7 +4,6 @@
 }
 
 .tooltip__bubble {
-  display: none;
   min-width: 100px;
   position: absolute;
   margin-bottom: 7px;
