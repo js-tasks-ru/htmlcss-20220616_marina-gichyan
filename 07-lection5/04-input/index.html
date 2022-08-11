@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
-
-    </body>
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./input.css" />
+  </head>
+  <body>
+    <div class="input" default>
+      <label class="input__label" default>Label</label>
+      <input
+        type="text"
+        name="input"
+        class="input__field"
+        placeholder="Placeholder"
+      />
+    </div>
+    <div class="input" pressed>
+      <label class="input__label">Focus</label>
+      <input
+        type="text"
+        name="input"
+        value="Filled input"
+        class="input__field input__field_pressed"
+      />
+    </div>
+    <div class="input" success>
+      <label class="input__label">Success</label>
+      <input type="text" name="input" value="Success" class="input__field" />
+      <div class="input__icon input__icon_on">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <use href="../../assets/Icons/sprite.svg#success"></use>
+        </svg>
+      </div>
+    </div>
+    <div class="input" error>
+      <label class="input__label">Error</label>
+      <input
+        type="text"
+        name="input"
+        value="Error"
+        class="input__field input__field_error"
+      />
+      <div class="input__icon input__icon_on">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <use href="../../assets/Icons/sprite.svg#alert"></use>
+        </svg>
+      </div>
+    </div>
+  </body>
 </html>

@@ -13,7 +13,21 @@
 @import '../../components/page/template.css';
 @import '../../05-lection3/03-calendar/calendar.css';
 @import '../../06-lection4/01-avatar/avatar.css';
-@import '../../05-lection3/02-modal/modal.css';
+@import '../../assets/Icons/sprite.svg';
+/* @import '../../05-lection3/02-modal/modal.css'; */
+@import '../../components/Tabs/tabs.css';
+@import '../../components/calendar_preview/calendar_preview.css';
+@import '../../components/avatar__preview/avatar_preview.css';
+@import '../../components/histogram_preview/histogram_preview.css';
+@import '../../components/modal_preview/modal_preview.css';
+@import '../../07-lection5/04-input/input.css';
+@import '../../03-lection1/01-button/button.css';
+@import '../../05-lection3/01-tooltip/tooltip.css';
+@import '../../components/Tabs/tabs.css';
+@import '../../components/navigation/navigation.css';
+@import '../../07-lection5/03-toggler/toggler.css';
+@import '../../07-lection5/01-checkbox/checkbox.css';
+@import '../../components/wrapper/wrapper.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 

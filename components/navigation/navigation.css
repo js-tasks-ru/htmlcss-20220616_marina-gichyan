@@ -1,0 +1,46 @@
+.navigation__tabs {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .navigation {
+    max-width: 1110px;
+  }
+  .navigation {
+    margin: 0px auto;
+    padding: 0px 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: space-between;
+  }
+
+  .navigation__tabs {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .navigation__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+  }
+
+  .navigation__link:link {
+    color: var(--grey-3);
+  }
+
+  .navigation__link:active {
+    color: var(--font-primary);
+  }
+
+  .navigation__link:visited {
+    color: var(--grey-4);
+  }
+}
